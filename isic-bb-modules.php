@@ -31,5 +31,6 @@ function flexbelt_load_modules() {
     if (class_exists('FLBuilder')) {
         require_once 'modules/hero-slider/hero-slider.php';
         require_once 'modules/category-slider/category-slider.php';
+        require_once 'modules/flexbelt-button/flexbelt-button.php';
     }
 }
