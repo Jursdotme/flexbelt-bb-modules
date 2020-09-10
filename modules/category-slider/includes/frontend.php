@@ -1,5 +1,5 @@
 <div class="flexbelt-module">
-	<div style="background: linear-gradient(90deg, rgba(44,44,44,1) 0%, rgba(172,19,22,1) 100%);">
+	<div class="bg-brand-500">
 		<div class="container flex flex-col items-center justify-around px-8 py-8 mx-auto md:flex-row">
 
 			<div>
@@ -32,10 +32,10 @@
 
 				?>
 
-					<div class="bg-center bg-cover h-128" style="background-image: url(<?php echo $image_attributes; ?>);">
-						<div class="mt-16 ml-16">
+					<a href="#" class="relative block bg-center bg-cover h-128 flexbelt-cat-slider-hover" style="background-image: url(<?php echo $image_attributes; ?>);">
+						<div class="relative z-10 flex justify-around mx-8 mt-16">
 
-							<a href="#" class="flex items-center">
+							<div class="flex items-center">
 								<span class="mb-0 text-3xl font-bold text-white uppercase text-shadow"><?php echo $slide->slide_header; ?></span>
 								<span class="ml-4 text-brand-500">
 									<svg viewBox="0 0 20 20" fill="currentColor" class="w-12 h-12 chevron-double-right">
@@ -43,9 +43,9 @@
 										<path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
 									</svg>
 								</span>
-							</a>
+							</div>
 						</div>
-					</div>
+					</a>
 
 				<?php endfor; ?>
 

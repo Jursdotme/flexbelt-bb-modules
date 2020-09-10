@@ -74,3 +74,21 @@
   width: 100%;
   margin-top: 0.5rem;
 }
+
+.flexbelt-cat-slider-hover:before {
+  opacity: 0;
+  transition: opacity;
+  transition-duration: 0.2s;
+  content: '';
+  background-color: rgb(44 44 44 / 70%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.flexbelt-cat-slider-hover:hover:before {
+  opacity: 1;
+}
