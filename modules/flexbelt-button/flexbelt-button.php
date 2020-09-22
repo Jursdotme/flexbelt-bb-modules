@@ -55,42 +55,42 @@ FLBuilder::register_module( 'FlexbeltButtonModuleClass', array(
               'label'         => __( 'Baggrundsfarve', 'fl-builder' ),
               'default'       => 'ac1316',
               'show_reset'    => true,
-              'show_alpha'    => true
+              'show_alpha'    => false
             ),
             'bg_hover_color' => array(
               'type'          => 'color',
               'label'         => __( 'Baggrundsfarve ved hover', 'fl-builder' ),
               'default'       => '52010c',
               'show_reset'    => true,
-              'show_alpha'    => true
+              'show_alpha'    => false
             ),
             'wedge_color' => array(
               'type'          => 'color',
               'label'         => __( 'Vinkelfarve', 'fl-builder' ),
               'default'       => '3f3f3f',
               'show_reset'    => true,
-              'show_alpha'    => true
+              'show_alpha'    => false
             ),
             'wedge_hover_color' => array(
               'type'          => 'color',
               'label'         => __( 'Vinkelfarve ved hover', 'fl-builder' ),
               'default'       => '000000',
               'show_reset'    => true,
-              'show_alpha'    => true
+              'show_alpha'    => false
             ),
             'text_color' => array(
               'type'          => 'color',
               'label'         => __( 'Tekstfarve', 'fl-builder' ),
               'default'       => 'ffffff',
               'show_reset'    => true,
-              'show_alpha'    => true
+              'show_alpha'    => false
             ),
             'text_hover_color' => array(
               'type'          => 'color',
               'label'         => __( 'Tekstfarve ved hover', 'fl-builder' ),
               'default'       => 'ffffff',
               'show_reset'    => true,
-              'show_alpha'    => true
+              'show_alpha'    => false
             ),
           )
         )

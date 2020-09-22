@@ -32,7 +32,7 @@
 
 				?>
 
-					<a href="#" class="relative block bg-center bg-cover h-128 flexbelt-cat-slider-hover" style="background-image: url(<?php echo $image_attributes; ?>);">
+					<a href="<?= $slide->link; ?>" class="relative block bg-center bg-cover h-128 flexbelt-cat-slider-hover" style="background-image: url(<?php echo $image_attributes; ?>);">
 						<div class="relative z-10 flex justify-around mx-8 mt-16">
 
 							<div class="flex items-center">

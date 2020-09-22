@@ -36,9 +36,9 @@ FLBuilder::register_module('FlexbeltCategorySliderModuleClass', array(
 					),
 					'slides' => array(
 						'type'          => 'form',
-						'label'         => __('My Form', 'fl-builder'),
+						'label'         => __('Slide', 'fl-builder'),
 						'form'          => 'slide_form', // ID of a registered form.
-						'preview_text'  => 'label', // ID of a field to use for the preview text.
+						'preview_text'  => 'slide_header', // ID of a field to use for the preview text.
 						'multiple'     => true,
 					)
 				)
@@ -61,12 +61,16 @@ FLBuilder::register_settings_form('slide_form', array(
 					'fields'        => array(
 						'slide_header'         => array(
 							'type'          => 'text',
-							'label'         => __('Heading', 'fl-builder')
+							'label'         => __('Overskrift', 'fl-builder')
 						),
 						'slide_background' => array(
 							'type'          => 'photo',
-							'label'         => __('Photo Field', 'fl-builder'),
+							'label'         => __('Foto', 'fl-builder'),
 							'show_remove'   => true,
+						),
+						'link' => array(
+							'type'          => 'Link',
+							'label'         => __('Link', 'fl-builder')
 						),
 					)
 				),

@@ -13,13 +13,13 @@
 
 		?>
 
-			<div class="flex flex-col justify-center h-64 bg-center bg-cover md:h-128" style="background-image: url(<?php echo $image_attributes; ?>);">
-				<div class="w-full max-w-screen-xl px-8 mx-auto">
+			<div class="flex flex-col justify-center bg-center bg-cover" style="background-image: url(<?php echo $image_attributes; ?>);">
+				<div class="w-full px-8 mx-auto max-w-flexbelt">
 					<h2 class="mb-0 text-xl font-light text-white md:text-4xl"><?php echo $slide->slide_header; ?></h2>
 					<h3 class="mb-0 text-2xl font-bold leading-none text-white md:text-6xl"><?php echo $slide->slide_subheader; ?></h3>
-					<a href="#" class="relative inline-block py-3 pl-6 pr-12 mt-6 overflow-hidden font-bold leading-none text-white rounded shadow bg-brand-500">Læs mere <span class="absolute top-0 bottom-0 right-0 w-8">
+					<a href="<?= $slide->link;?>" class="relative inline-block py-3 pl-6 pr-12 mt-6 overflow-hidden font-bold leading-none text-white rounded shadow bg-brand-500">Læs mere <span class="absolute top-0 bottom-0 right-0 w-8">
 							<svg class="h-full" preserveAspectRatio="none" viewBox="0 0 100 100">
-								<polygon points="40,0 100,0 100,100 0,100" />
+								<polygon fill="#3f3f3f" points="40,0 100,0 100,100 0,100" />
 							</svg>
 						</span></a>
 				</div>
