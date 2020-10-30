@@ -32,13 +32,12 @@
 
 				?>
 
-					<a href="<?= $slide->link; ?>" class="relative block bg-center bg-cover h-128 flexbelt-cat-slider-hover" style="background-image: url(<?php echo $image_attributes; ?>);">
-						<div class="relative z-10 flex justify-around mx-8 mt-16">
-
-							<div class="flex items-center">
+					<a href="<?= $slide->cat_link; ?>" class="relative block bg-center bg-cover h-128 flexbelt-cat-slider-hover" style="background-image: url(<?php echo $image_attributes; ?>);">
+						<div class="relative z-10 flex justify-around h-full">
+							<div class="relative flex items-center justify-center w-full">
 								<span class="mb-0 text-3xl font-bold text-white uppercase text-shadow"><?php echo $slide->slide_header; ?></span>
-								<span class="ml-4 text-brand-500">
-									<svg viewBox="0 0 20 20" fill="currentColor" class="w-12 h-12 chevron-double-right">
+								<span class="absolute ml-4 bottom-4 text-brand-500 right-8">
+									<svg viewBox="0 0 20 20" fill="currentColor" class="w-24 h-24 chevron-double-right">
 										<path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
 										<path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
 									</svg>

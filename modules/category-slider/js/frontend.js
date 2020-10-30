@@ -2,7 +2,7 @@ jQuery(() => {
   jQuery('.flexbox-cat-slider').bxSlider({
     mode: 'horizontal',
     adaptiveHeight: true,
-    auto: true,
+    auto: false,
     pause: 8000,
     pagerSelector: "#flexbelt-cat-pager",
     nextSelector: "#flexbelt-cat-arrows",

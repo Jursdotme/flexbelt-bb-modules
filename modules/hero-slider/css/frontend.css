@@ -5,6 +5,15 @@
 .fl-module-hero-slider .bx-controls {
   height: 0;
   display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50%;
+}
+
+.bx-wrapper .bx-next,
+.bx-wrapper .bx-prev {
+  background: transparent;
 }
 
 .fl-module-hero-slider .bx-next,

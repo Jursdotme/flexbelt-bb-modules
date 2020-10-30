@@ -68,8 +68,8 @@ FLBuilder::register_settings_form('slide_form', array(
 							'label'         => __('Foto', 'fl-builder'),
 							'show_remove'   => true,
 						),
-						'link' => array(
-							'type'          => 'Link',
+						'cat_link' => array(
+							'type'          => 'link',
 							'label'         => __('Link', 'fl-builder')
 						),
 					)
